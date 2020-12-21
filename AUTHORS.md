@@ -5,6 +5,7 @@
 * Zhaoning Kong - jonnykong@cs.ucla.edu
 * Tianxiang Li - tianxiang@cs.ucla.edu
 
-### Special Thanks To
+### Contributors
 
 * Spyridon Mastorakis - mastorakis@cs.ucla.edu
+* Junxiao Shi - https://yoursunny.com/
