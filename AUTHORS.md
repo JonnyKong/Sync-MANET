@@ -8,4 +8,4 @@
 ### Contributors
 
 * Spyridon Mastorakis - mastorakis@cs.ucla.edu
-* Junxiao Shi - https://yoursunny.com/
+* Junxiao Shi - https://yoursunny.com
