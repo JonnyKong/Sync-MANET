@@ -3,7 +3,7 @@
 
 #include <boost/asio.hpp>
 #include <boost/lexical_cast.hpp>
-#include <cstdint>
+#include <cinttypes>
 #include <iostream>
 #include <ndn-cxx/face.hpp>
 #include <ndn-cxx/name.hpp>
@@ -31,7 +31,7 @@ class Program {
       : m_options(options),
         m_svs(m_options.m_id,
               std::bind(&Program::onMsg, this, std::placeholders::_1)) {
-    printf("SVS client %llu starts\n", m_options.m_id);
+    printf("SVS client %" PRIu64 " starts\n", m_options.m_id);
 
     // Suppress warning
     Interest::setDefaultCanBePrefix(true);
